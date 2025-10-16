@@ -62,6 +62,6 @@
       "flags": {}
     }
   ],
-  "manifest": "https://raw.githubusercontent.com/bernardoclon/tencandles/refs/heads/main/system.json",
-  "download": "https://github.com/bernardoclon/tencandles/archive/refs/tags/V1-0.zip"
+  "manifest": "https://raw.githubusercontent.com/bernardoclon/latabernadeberna/refs/heads/main/module.json",
+  "download": "https://github.com/bernardoclon/latabernadeberna/archive/refs/tags/V1-0.zip"
 }
