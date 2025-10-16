@@ -1,5 +1,26 @@
-Hooks.once('ready', async function() {
+Hooks.once('ready', () => {
   console.log('La Taberna de Berna (PF2) | Initializing');
+
+  // Register settings
+  game.settings.register('la-taberna-de-berna-pf2', 'moduleActive', {
+    name: 'Module Active',
+    scope: 'world',
+    config: false,
+    type: Boolean,
+    default: true,
+    onChange: value => {
+      if (value) {
+        createCompendiumFolders();
+      } else {
+        // Optionally, you can add logic here to handle module deactivation
+        // For simplicity, we won't remove the compendium folders now
+      }
+    }
+  });
+});
+
+Hooks.once('ready', async function() {
+  console.log('La Taberna de Berna (PF2) | Ready');
 
   // Create folders if module is active
   if (game.settings.get('la-taberna-de-berna-pf2', 'moduleActive')) {
@@ -16,7 +37,7 @@ async function createCompendiumFolders() {
       name: folderName,
       type: "Compendium",
       sorting: "m",
-      color: "#5c0000ff"
+      color: "#470000"
     });
   }
 
