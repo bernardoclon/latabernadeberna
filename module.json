@@ -62,6 +62,6 @@
       "flags": {}
     }
   ],
-  "manifest": "https://github.com/bernardoclon/latabernadeberna/blob/main/module.json",
+  "manifest": "https://raw.githubusercontent.com/bernardoclon/latabernadeberna/refs/heads/main/module.json",
   "download": "https://github.com/bernardoclon/latabernadeberna/archive/refs/tags/V1-0.zip"
 }
