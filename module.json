@@ -7,8 +7,8 @@
     "verified": "13"
   },
   "scripts": [
-    "module.js",
-    "style.js",
+    "js/module.js",
+    "js/style.js",
     "js/logo.js"
   ],
   "styles": [
