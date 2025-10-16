@@ -1,4 +1,4 @@
-<p style="text-align:center">
+<p style="align:center">
   
 # La Taberna de Berna (PF2)
 
