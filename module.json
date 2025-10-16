@@ -9,7 +9,7 @@
   "scripts": [
     "module.js",
     "style.js",
-    "logo.js"
+    "js/logo.js"
   ],
   "styles": [
     "css/bernastyle.css"
