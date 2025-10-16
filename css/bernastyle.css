@@ -1,5 +1,6 @@
 /* Logo de Pausa Cambiado y Titilante*/
 @import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Oswald:wght@200..700&family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
 
 img.fa-spin {
     width: 150px; /* Ajusta el tamaño */
@@ -586,3 +587,4 @@ strong {
   border-top: 1px solid black;
 
 }
+
