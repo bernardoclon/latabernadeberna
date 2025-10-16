@@ -5,14 +5,10 @@ const MODULE_ID = "la-taberna-de-berna-pf2";
 const compendiumBanners = [
     {
         dataPack: `${MODULE_ID}.aventuras`,
-        colorText: "#ff5252", // Se mantiene para compatibilidad con estilos de texto si se desea
-        iconText: "fa-solid fa-tint", // Se mantiene para compatibilidad con iconos si se desea
         bannerImage: `modules/${MODULE_ID}/art/banner1.png`,
     },
     {
         dataPack: `${MODULE_ID}.objetos`,
-        colorText: "#ff5252",
-        iconText: "fa-solid fa-dot-circle",
         bannerImage: `modules/${MODULE_ID}/art/banner2.png`,
     }
 ];
@@ -255,4 +251,5 @@ Hooks.on("renderApplication", (app, html, data) => {
             applyCompendiumBanner(popoutSection);
         }, 100); 
     }
+
 });
