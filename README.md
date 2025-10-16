@@ -1,4 +1,5 @@
-<div style="text-align:center">
+<div style="align:center">
+  
 # La Taberna de Berna (PF2)
 
 <img width="250" height="250" alt="logo" src="https://github.com/user-attachments/assets/2b06b0e3-1980-4d3c-8703-0c83a7c2782f" />
