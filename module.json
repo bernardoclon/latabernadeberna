@@ -1,0 +1,65 @@
+{
+  "id": "la-taberna-de-berna-pf2",
+  "title": "La Taberna de Berna (PF2)",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "scripts": [
+    "module.js",
+    "style.js",
+    "logo.js"
+  ],
+  "styles": [
+    "css/bernastyle.css"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "compendium-themer",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Berna",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "aventuras",
+      "label": "Aventuras",
+      "path": "packs/aventuras",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "objetos",
+      "label": "Objetos",
+      "path": "packs/objetos",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ]
+}

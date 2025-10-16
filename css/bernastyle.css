@@ -1,0 +1,587 @@
+/* Logo de Pausa Cambiado y Titilante*/
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Oswald:wght@200..700&family=Quintessential&display=swap');
+
+img.fa-spin {
+  width: 150px; /* Ajusta el tamaño */
+  height: 150px;
+  animation: pulsate 3s infinite ease-in-out, none !important; /* Añade el parpadeo */
+  opacity: 0.75; /* Transparencia inicial */
+}
+
+@keyframes pulsate {
+  0% {
+      filter: drop-shadow(0 0 0 rgba(255, 255, 255, 0));
+  }
+  50% {
+      filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+  }
+  100% {
+      filter: drop-shadow(0 0 0 rgba(255, 255, 255, 0));
+  }
+}
+
+#pause figcaption {
+  color: var(--color-text-light-0);
+  font-size: var(--font-size-46);
+  text-shadow: 2px 2px 2px var(--color-shadow-dark);
+  font-family: var(--dnd5e-font-modesto);
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 0;
+  margin: 0;
+}
+
+#pause {
+  background: none !important;
+}
+
+:root {
+    --parchment-bg: #f5f0e1;
+    --parchment-shadow: #464645;
+    --text-color: #000000;
+}
+
+.titulo{
+    font-family: 'Quintessential', serif;
+    font-weight: 400;    
+    font-style: bold;
+    color: var(--text-color);    
+    line-height: 1.6;
+    font-size: 2.5em;
+    color: #000000;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
+    border-bottom: 2px solid #4e0000;
+}
+
+.titulo2{
+    font-family: 'Quintessential', serif;
+    font-weight: 200;
+    font-style: normal;
+    color: var(--text-color);    
+    line-height: 1.6;
+    text-align: justify;
+    font-size: 2em;
+    color: #000000;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
+    border-bottom: 2px solid #4e0000;
+}
+
+.titulo3{
+    font-family: 'Quintessential', serif;
+    font-weight: 200;
+    font-style: normal;
+    color: var(--text-color);    
+    line-height: 1.6;
+    text-align: justify;
+    font-size: 1.5em;
+    color: #000000;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
+    border-bottom: 2px solid #4e0000;
+}
+
+.body {
+    color: var(--text-color);
+    font-family: "Neuton", serif;
+    font-size: 1.1em;
+    line-height: 1.6;
+    padding: 1% 5%;
+}
+.main-title, .section-title, .sub-title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+strong {
+    font-weight: 700;
+}
+.narrative-box {
+    background-color: #faf5ea;
+    border: 2px solid black;
+    box-shadow: 8px 8px 0px var(--parchment-shadow);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 5% 0;
+    text-align: justify;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.6;
+}
+
+/* CRIATURAS */
+
+.creature-card {
+  background: #f8f8eb;
+  border-radius: 11px;
+  margin: 3% 0 3% 0;
+  z-index: 10;
+  text-align: justify;
+}
+
+.creature-card-title {
+  color: white;
+  padding: 2% 3%;
+  display: flex;
+  background:#0A1F44;
+  background-blend-mode: multiply;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px 10px 0 0;
+  z-index: 0;
+  border: 3px solid black;
+}
+
+.creature-card-title-listing {
+  flex: 1;
+}
+
+.creature-card-token-icon {
+  width: 80px;
+  height: 80px;
+  border: none;
+  margin-right: 5px;
+}
+
+.creature-card-title-listing > div {
+  display: flex;
+  align-items: center;
+}
+
+.creature-card-title-cr {
+  font-size: small;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: auto;
+  white-space: nowrap;
+  font-family: 'Oswald', sans-serif;
+}
+
+.creature-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  list-style-type: none;
+  padding: 0;
+  margin: 2px 0;
+  font-size: 0.6em;
+}
+
+.creature-card-tag {
+  background-color: #F5E9D4;
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.5);
+  color: black;
+  font-size: 8px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  padding: 2px 3px;
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 1.3em;
+  font-family: 'Oswald', sans-serif;
+}
+
+.creature-card-statblock {
+  padding: 3% 8%;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 0px 3px 3px 3px;
+  border-radius: 0 0 10px 10px;
+}
+
+.creature-card-statblock p {
+  padding: 2px 0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  margin: 3px 0;
+  line-height: 1.2;
+}
+
+.creature-card-statblock hr {
+  margin: 5px 0;
+  border: 0;
+  border-top: 1px solid black;
+}
+
+/* PELIGROS */
+
+.hazard-card {
+  background: #f8f8eb;
+  border-radius: 11px;
+  margin: 3% 0 3% 0;
+  z-index: 10;
+  text-align: justify;
+}
+
+.hazard-card-title {
+  color: white;
+  padding: 2% 3%;
+  display: flex;
+  background:#1C1C1C;
+  background-blend-mode: multiply;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px 10px 0 0;
+  z-index: 0;
+  border: 3px solid black;
+}
+
+.hazard-card-title-listing {
+  flex: 1;
+}
+
+.hazard-card-token-icon {
+  width: 50px;
+  height: 50px;
+  border: none;
+  margin-right: 20px;
+}
+
+.hazard-card-title-listing > div {
+  display: flex;
+  align-items: center;
+}
+
+.hazard-card-title-cr {
+  font-size: small;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: auto;
+  white-space: nowrap;
+  font-family: 'Oswald', sans-serif;
+}
+
+.hazard-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  list-style-type: none;
+  padding: 0;
+  margin: 2px 0;
+  font-size: 0.6em;
+}
+
+.hazard-card-tag {
+  background-color: #F9F9F6;
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.5);
+  color: black;
+  font-size: 8px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  padding: 2px 3px;
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 1.3em;
+  font-family: 'Oswald', sans-serif;
+}
+
+.hazard-card-statblock {
+  padding: 3% 8%;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 0px 3px 3px 3px;
+  border-radius: 0 0 10px 10px;
+}
+
+.hazard-card-statblock p {
+  padding: 2px 0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  margin: 3px 0;
+  line-height: 1.2;
+}
+
+.hazard-card-statblock hr {
+  margin: 5px 0;
+  border: 0;
+  border-top: 1px solid black;
+}
+
+/* DOTES Y HERENCIAS */
+
+.feat-card {
+  background: #f8f8eb;
+  border-radius: 11px;
+  margin: 3% 0 3% 0;
+  z-index: 10;
+  text-align: justify;
+}
+
+.feat-card-title {
+  color: white;
+  padding: 2% 3%;
+  display: flex;
+  background: #B8860B;
+  background-blend-mode: multiply;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px 10px 0 0;
+  z-index: 0;
+  border: 3px solid black;
+}
+
+.feat-card-title-listing {
+  flex: 1;
+}
+
+.feat-card-token-icon {
+  width: 50px;
+  height: 50px;
+  border: none;
+  margin-right: 20px;
+}
+
+.feat-card-title-listing > div {
+  display: flex;
+  align-items: center;
+}
+
+.feat-card-title-cr {
+  font-size: small;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: auto;
+  white-space: nowrap;
+  font-family: 'Oswald', sans-serif;
+}
+
+.feat-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  list-style-type: none;
+  padding: 0;
+  margin: 2px 0;
+  font-size: 0.6em;
+}
+
+.feat-card-tag {
+  background-color: #FFF8DC;
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.5);
+  color: black;
+  font-size: 8px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  padding: 2px 3px;
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 1.3em;
+  font-family: 'Oswald', sans-serif;
+}
+
+.feat-card-statblock {
+  padding: 3% 8%;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 0px 3px 3px 3px;
+  border-radius: 0 0 10px 10px;
+}
+
+.feat-card-statblock p {
+  padding: 2px 0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  margin: 3px 0;
+  line-height: 1.2;
+}
+
+.feat-card-statblock hr {
+  margin: 5px 0;
+  border: 0;
+  border-top: 1px solid black;
+}
+
+/* TESOROS */
+
+.treasure-card {
+  background: #f8f8eb;
+  border-radius: 11px;
+  margin: 3% 0 3% 0;
+  z-index: 10;
+  text-align: justify;
+}
+
+.treasure-card-title {
+  color: white;
+  padding: 2% 3%;
+  display: flex;
+  background: #2F4F2F;
+  background-blend-mode: multiply;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px 10px 0 0;
+  z-index: 0;
+  border: 3px solid black;
+}
+
+.treasure-card-title-listing {
+  flex: 1;
+}
+
+.treasure-card-token-icon {
+  width: 50px;
+  height: 50px;
+  border: none;
+  margin-right: 20px;
+}
+
+.treasure-card-title-listing > div {
+  display: flex;
+  align-items: center;
+}
+
+.treasure-card-title-cr {
+  font-size: small;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: auto;
+  white-space: nowrap;
+  font-family: 'Oswald', sans-serif;
+}
+
+.treasure-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  list-style-type: none;
+  padding: 0;
+  margin: 2px 0;
+  font-size: 0.6em;
+}
+
+.treasure-card-tag {
+  background-color: #E6F3E6;
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.5);
+  color: black;
+  font-size: 8px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  padding: 2px 3px;
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 1.3em;
+  font-family: 'Oswald', sans-serif;
+}
+
+.treasure-card-statblock {
+  padding: 3% 8%;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 0px 3px 3px 3px;
+  border-radius: 0 0 10px 10px;
+}
+
+.treasure-card-statblock p {
+  padding: 2px 0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  margin: 3px 0;
+  line-height: 1.2;
+}
+
+.treasure-card-statblock hr {
+  margin: 5px 0;
+  border: 0;
+  border-top: 1px solid black;
+}
+
+/* PERSONAJES/HÉROES */
+
+.character-card {
+  background: #f8f8eb;
+  border-radius: 11px;
+  margin: 3% 0 3% 0;
+  z-index: 10;
+  text-align: justify;
+}
+
+.character-card-title {
+  color: white;
+  padding: 2% 3%;
+  display: flex;
+  background: #4B0082;
+  background-blend-mode: multiply;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px 10px 0 0;
+  z-index: 0;
+  border: 3px solid black;
+}
+
+.character-card-title-listing {
+  flex: 1;
+}
+
+.character-card-token-icon {
+  width: 80px;
+  height: 80px;
+  border: none;
+  margin-right: 5px;
+}
+
+.character-card-title-listing > div {
+  display: flex;
+  align-items: center;
+}
+
+.character-card-title-cr {
+  font-size: small;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: auto;
+  white-space: nowrap;
+  font-family: 'Oswald', sans-serif;
+}
+
+.character-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  list-style-type: none;
+  padding: 0;
+  margin: 2px 0;
+  font-size: 0.6em;
+}
+
+.character-card-tag {
+  background-color: #E6E6FA;
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.5);
+  color: black;
+  font-size: 8px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  padding: 2px 3px;
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 1.3em;
+  font-family: 'Oswald', sans-serif;
+}
+
+.character-card-statblock {
+  padding: 3% 8%;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 0px 3px 3px 3px;
+  border-radius: 0 0 10px 10px;
+}
+
+.character-card-statblock p {
+  padding: 2px 0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  margin: 3px 0;
+  line-height: 1.2;
+}
+
+.character-card-statblock hr {
+  margin: 5px 0;
+  border: 0;
+  border-top: 1px solid black;
+}
