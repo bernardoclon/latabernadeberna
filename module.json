@@ -61,5 +61,7 @@
       "system": "pf2e",
       "flags": {}
     }
-  ]
+  ],
+  "manifest": "https://raw.githubusercontent.com/bernardoclon/tencandles/refs/heads/main/system.json",
+  "download": "https://github.com/bernardoclon/tencandles/archive/refs/tags/V1-0.zip"
 }
