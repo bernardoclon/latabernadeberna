@@ -1,4 +1,4 @@
-<div style="text-align:center">
+<p style="text-align:center">
   
 # La Taberna de Berna (PF2)
 
@@ -7,4 +7,4 @@
 Esta es tu entrada personal al vibrante mundo de Golarion, un compendio de aventuras meticulosamente seleccionado y presentado en español, diseñado específicamente para Pathfinder Segunda Edición. Dentro de estas páginas, encontrarás una colección de emocionantes módulos, one-shots y campañas cortas, cuidadosamente traducidas o adaptadas para ofrecer una experiencia de juego fluida y emocionante. El enfoque está en la calidad de la narrativa y la variedad de desafíos, asegurando que cada sesión ofrezca encuentros únicos, desde el misterio de las ruinas perdidas y la intriga palaciega, hasta épicos combates contra monstruos legendarios. Este volumen es la herramienta esencial para cualquier Director de Juego (DJ) que busque material listo para usar, ofreciendo horas de diversión y exploración sin la barrera del idioma.
 
 Más allá de ser una simple traducción, este compendio funciona como una guía práctica, que incorpora notas del DJ y consejos de adaptación para ayudarte a integrar estas historias perfectamente en tu propia campaña o mundo de juego. El objetivo es maximizar la inmersión y la facilidad de uso, proporcionando mapas detallados, perfiles de PNJ clave y tablas de encuentros formateadas según las reglas de PF2E. Ya sea que necesites una misión rápida para llenar el vacío entre sesiones o la base para una minicampaña completa, este módulo personal te ofrece un tesoro de contenido. Tu viaje a través de Golarion comienza aquí, garantizando que cada tirada de dados se sienta tan épica como debe ser, con todo el contexto y la emoción a tu alcance.
-</div>
+</p>
