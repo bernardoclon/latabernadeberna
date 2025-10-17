@@ -1,8 +1,0 @@
-2025/10/17-06:07:42.156 2dfc Recovering log #619
-2025/10/17-06:07:42.156 2dfc Delete type=0 #619
-2025/10/17-06:07:42.156 2dfc Delete type=3 #617
-2025/10/17-07:17:14.586 32a0 Level-0 table #624: started
-2025/10/17-07:17:14.586 32a0 Level-0 table #624: 0 bytes OK
-2025/10/17-07:17:14.588 32a0 Delete type=0 #622
-2025/10/17-07:17:14.594 32a0 Manual compaction at level-0 from '!folders!3VmHHIrh7Fn8yzF5' @ 72057594037927935 : 1 .. '!items!ynfcbHRDevldT2Av' @ 0 : 0; will stop at (end)
-2025/10/17-07:17:14.594 32a0 Manual compaction at level-1 from '!folders!3VmHHIrh7Fn8yzF5' @ 72057594037927935 : 1 .. '!items!ynfcbHRDevldT2Av' @ 0 : 0; will stop at (end)
