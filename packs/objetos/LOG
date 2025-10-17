@@ -1,0 +1,8 @@
+2025/10/17-11:50:39.742 168c Recovering log #639
+2025/10/17-11:50:39.750 168c Delete type=0 #639
+2025/10/17-11:50:39.750 168c Delete type=3 #637
+2025/10/17-11:55:11.455 8a8 Level-0 table #644: started
+2025/10/17-11:55:11.456 8a8 Level-0 table #644: 0 bytes OK
+2025/10/17-11:55:11.458 8a8 Delete type=0 #642
+2025/10/17-11:55:11.476 8a8 Manual compaction at level-0 from '!folders!3VmHHIrh7Fn8yzF5' @ 72057594037927935 : 1 .. '!items!ynfcbHRDevldT2Av' @ 0 : 0; will stop at (end)
+2025/10/17-11:55:11.476 8a8 Manual compaction at level-1 from '!folders!3VmHHIrh7Fn8yzF5' @ 72057594037927935 : 1 .. '!items!ynfcbHRDevldT2Av' @ 0 : 0; will stop at (end)
