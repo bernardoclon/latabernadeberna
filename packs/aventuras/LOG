@@ -1,0 +1,8 @@
+2025/10/17-07:18:02.717 2dfc Recovering log #670
+2025/10/17-07:18:02.717 2dfc Delete type=0 #670
+2025/10/17-07:18:02.717 2dfc Delete type=3 #668
+2025/10/17-07:19:56.122 32a0 Level-0 table #676: started
+2025/10/17-07:19:56.122 32a0 Level-0 table #676: 0 bytes OK
+2025/10/17-07:19:56.131 32a0 Delete type=0 #674
+2025/10/17-07:19:56.131 32a0 Manual compaction at level-0 from '!adventures!0N5q60kG6kI6oRWy' @ 72057594037927935 : 1 .. '!adventures!tikpj5BhPb2RJ67m' @ 0 : 0; will stop at (end)
+2025/10/17-07:19:56.131 32a0 Manual compaction at level-1 from '!adventures!0N5q60kG6kI6oRWy' @ 72057594037927935 : 1 .. '!adventures!tikpj5BhPb2RJ67m' @ 0 : 0; will stop at (end)
