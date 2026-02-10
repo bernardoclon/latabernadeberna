@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&display=swap');
 
 img.fa-spin {
-    width: 150px; /* Ajusta el tamaño */
+    width: 150px; /* Ajusta el tamaño ventana*/
     height: 150px;
     animation: pulsate 3s infinite ease-in-out, none !important; /* Añade el parpadeo */
     opacity: 0.75; /* Transparencia inicial */
