@@ -1,0 +1,75 @@
+{
+  "id": "la-taberna-de-berna-pf2",
+  "title": "La Taberna de Berna (PF2)",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "scripts": [
+    "js/module.js",
+    "js/style.js",
+    "js/logo.js"
+  ],
+  "styles": [
+    {
+      "src": "css/bernastyle.css"
+    },
+    {
+      "src": "css/journals.css"
+    },
+    {
+      "src": "css/Stranger-Things.css"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "sequencer",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Berna",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "aventuras",
+      "label": "Aventuras",
+      "path": "packs/aventuras",
+      "type": "Adventure",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "objetos",
+      "label": "Objetos",
+      "path": "packs/objetos",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/bernardoclon/latabernadeberna/refs/heads/main/module.json",
+  "download": "https://github.com/bernardoclon/latabernadeberna/archive/refs/tags/V1-0.zip",
+  "description": "",
+  "flags": {}
+}
