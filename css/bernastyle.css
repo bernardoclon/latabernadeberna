@@ -235,7 +235,7 @@ strong {
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
   margin: 3px 0;
-  line-height: 1.2;
+  line-height: 1.6 !important;
 }
 
 .creature-card-statblock hr {
@@ -330,7 +330,7 @@ strong {
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
   margin: 3px 0;
-  line-height: 1.2;
+  line-height: 1.6 !important;
 }
 
 .hazard-card-statblock hr {
@@ -425,7 +425,7 @@ strong {
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
   margin: 3px 0;
-  line-height: 1.2;
+  line-height: 1.6 !important;
 }
 
 .feat-card-statblock hr {
@@ -520,7 +520,7 @@ strong {
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
   margin: 3px 0;
-  line-height: 1.2;
+  line-height: 1.6 !important;
 }
 
 .others-card-statblock hr {
@@ -615,7 +615,7 @@ strong {
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
   margin: 3px 0;
-  line-height: 1.2;
+  line-height: 1.6 !important;
 }
 
 .treasure-card-statblock hr {
@@ -710,7 +710,7 @@ strong {
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
   margin: 3px 0;
-  line-height: 1.2;
+  line-height: 1.6 !important;
 }
 
 .character-card-statblock hr {
@@ -805,7 +805,7 @@ strong {
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
   margin: 3px 0;
-  line-height: 1.2;
+  line-height: 1.6 !important;
 }
 
 .party-card-statblock hr {
@@ -900,7 +900,7 @@ strong {
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
   margin: 3px 0;
-  line-height: 1.2;
+  line-height: 1.6 !important;
 }
 
 .bonus-card-statblock hr {

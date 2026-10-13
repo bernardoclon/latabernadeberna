@@ -5,7 +5,7 @@ Hooks.on("ready", () => {
         if (pauseScreen) {
             const img = pauseScreen.querySelector("img");
             if (img && !img.classList.contains('customized')) {
-                img.src = "modules/la-taberna-de-berna-pf2/art/logo.png";
+                img.src = "modules/la-taberna-de-berna-pf2/Art/logo.png";
                 img.classList.add('customized'); // Marcar como modificado
                 
                 // Opcional: Cambiar el texto

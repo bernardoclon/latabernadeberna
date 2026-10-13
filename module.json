@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "compatibility": {
     "minimum": "13",
-    "verified": "13"
+    "verified": "14",
+    "maximum": "14"
   },
   "scripts": [
     "js/module.js",
@@ -54,7 +55,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "objetos",
@@ -65,7 +67,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     }
   ],
   "manifest": "https://raw.githubusercontent.com/bernardoclon/latabernadeberna/refs/heads/main/module.json",

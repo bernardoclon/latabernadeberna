@@ -1,13 +1,21 @@
 /* Journals */
 
 .journal-entry:not(.minimized) {
-  border-image: url(../art/borderj.png);
+  border-image: url(../Art/borderj.png);
   border-image-slice: 180;
   border-image-width: 40px;
   border-image-outset: 25px;
   border-image-repeat: round;
   border-style: solid;
   
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .journal-entry:not(.minimized) .window-header {
@@ -48,7 +56,7 @@
   height: 20px;
   font-size: 0;
   margin: 0;
-  background-image: url(../art/close.png);
+  background-image: url(../Art/close.png);
   filter: drop-shadow(0 0 5px black) drop-shadow(0 0 2px #6b081c);
 }
 
@@ -243,7 +251,6 @@
 .imagebook{
     border: 4px solid #3b230c;
     border-radius: 8px;
-    background-color: var(--parchment-bg);
     padding: 5px;
   }
 
@@ -264,5 +271,89 @@
   --fa: "\f52d";
 }
 .journal-entry .edit-container button {
-  color: var(--color-text-primary);
+  color: black;
+}
+
+/* Separadores HR globales */
+.journal-entry hr {
+  border: 0 !important;
+  border-top: 2px solid black !important;
+  height: 0 !important;
+  margin: 1em 0;
+  opacity: 1;
+  background: none !important;
+}
+
+/* Animación de destello global */
+.imageshine, .imageshinep {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  width: fit-content;
+}
+
+.imageshine::after, .imageshinep::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -150%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0) 100%);
+  transform: skewX(-25deg);
+  pointer-events: none;
+  z-index: 1; /* Asegura que esté sobre la imagen */
+}
+
+.imageshine.shining::after, .imageshinep.shining::after {
+  animation: shine 0.85s ease-in-out;
+}
+
+/* Color del texto mientras se edita un journal según el tema de Foundry */
+body.theme-dark prose-mirror.editor .editor-content,
+body.theme-dark prose-mirror.editor .editor-content * {
+  color: #fff !important;
+}
+
+/* Mantiene texto oscuro en cajas y bloques con fondo claro dentro del editor */
+body.theme-dark prose-mirror.editor .editor-content :is(
+  .narrative-box,
+  .creature-card-statblock, .creature-card-tag,
+  .hazard-card-statblock, .hazard-card-tag,
+  .feat-card-statblock, .feat-card-tag,
+  .others-card-statblock, .others-card-tag,
+  .treasure-card-statblock, .treasure-card-tag,
+  .character-card-statblock, .character-card-tag,
+  .party-card-statblock, .party-card-tag,
+  .bonus-card-statblock, .bonus-card-tag
+),
+body.theme-dark prose-mirror.editor .editor-content .narrative-box * {
+  color: #000 !important;
+}
+
+body.theme-dark prose-mirror.editor .editor-content {
+  caret-color: #fff;
+}
+
+body.theme-light prose-mirror.editor .editor-content,
+body.theme-light prose-mirror.editor .editor-content * {
+  color: #000 !important;
+}
+
+body.theme-light prose-mirror.editor .editor-content {
+  caret-color: #000;
+}
+
+@keyframes shine {
+  0% {
+    left: -150%;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    left: 150%;
+    opacity: 0;
+  }
 }

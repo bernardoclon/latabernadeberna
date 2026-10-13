@@ -5,11 +5,11 @@ const MODULE_ID = "la-taberna-de-berna-pf2";
 const compendiumBanners = [
     {
         dataPack: `${MODULE_ID}.aventuras`,
-        bannerImage: `modules/${MODULE_ID}/art/banner1.png`,
+        bannerImage: `modules/${MODULE_ID}/Art/banner1.png`,
     },
     {
         dataPack: `${MODULE_ID}.objetos`,
-        bannerImage: `modules/${MODULE_ID}/art/banner2.png`,
+        bannerImage: `modules/${MODULE_ID}/Art/banner2.png`,
     }
 ];
 
@@ -50,6 +50,20 @@ Hooks.once('ready', async function() {
   // Observar cambios en el cuerpo del documento (adición/eliminación de nodos hijos)
   // subtree: true para observar también cambios en los descendientes del body
   globalBodyObserver.observe(document.body, { childList: true, subtree: true });
+
+  // Lógica para que el destello termine su ciclo completo
+  $(document).on('mouseenter', '.imageshine, .imageshinep', function() {
+      const $el = $(this);
+      if (!$el.hasClass('shining')) {
+          $el.addClass('shining');
+      }
+  });
+
+  $(document).on('animationend', '.imageshine, .imageshinep', function(ev) {
+      if (ev.originalEvent.animationName === 'shine') {
+          $(this).removeClass('shining');
+      }
+  });
 });
 
 
